@@ -1,0 +1,78 @@
+.section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.mainDiv {
+  background-color: #fff;
+  width: 600px;
+  height: 150px;
+  border-radius: 6px;
+}
+
+
+.span {
+  padding: 5px 8px;
+  display: inline-block;
+  margin-right: 5px;
+  background-color: rgb(224, 224, 224);
+  border-radius: 50%;
+}
+.first {
+  background-color: blue;
+  color: #fff;
+}
+.chooseDiv {
+  padding-top: 1px;
+  margin-right: 50px;
+}
+.choose {
+  padding-left: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.chooseTwo {
+  color:#b0b0b0;
+}
+.chooseThree {
+  color:rgb(176, 176, 176);
+}
+.showTitle {
+  font-weight: 600;
+}
+.buttons {
+  padding-left: 17px;
+}
+.btn {
+  margin-top: 20px;
+  font-weight: 600;
+  padding: 8px 18px;
+  color: green;
+  background-color: rgb(224, 224, 224);
+  border: 1px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(186, 186, 186);
+  }
+}
+
+.back {
+  display: none;
+  margin-right: 10px;
+}
+
+.btnDescrip {
+  display: none;
+}
+
+.noBack {
+  display: none;
+  margin-right: 10px;
+}
+.ahead {
+  display: none;
+}
