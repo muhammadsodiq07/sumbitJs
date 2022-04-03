@@ -9,7 +9,7 @@ let chooseThree = document.querySelector(".chooseThree");
 let chooseOne = document.querySelector(".chooseOne");
 let secondSpan = document.querySelector('.second'); 
 let thirdSpan = document.querySelector('.third'); 
-
+// btns[2].setAttribute('disabled', 'disabled')
 btnSubmit.addEventListener("click", () => {
   showTitle.innerHTML =  `Choose Description Content`
   showTitle.style.color = "black";
@@ -77,6 +77,7 @@ descripBtn.addEventListener("click", () => {
 
 chooseThree.addEventListener("click", () => {
   showTitle.innerHTML = `Are You Happy?`
+  showTitle.setAttribute('disabled');
   showTitle.style.color = "black";
   thirdSpan.style.backgroundColor = "blue";
   thirdSpan.style.color = "white";  
